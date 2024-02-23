@@ -26,7 +26,8 @@ const greeting = {
   subTitle: emoji(
     "A motivated Software Engineer 🚀 with experience in mobile and web application development using React Native, Flutter, JavaScript, and Firebase. I'm passionate about building user-centric interfaces and optimizing application performance and security."
   ),
-  resumeLink: "https://drive.google.com/file/d/1D41U5BltPcusW8G_rhDeXH-H5Qp97dcD/view?usp=drive_link", // Assuming you'll add your resume link here
+  resumeLink:
+    "https://drive.google.com/file/d/1D41U5BltPcusW8G_rhDeXH-H5Qp97dcD/view?usp=drive_link", // Assuming you'll add your resume link here
   displayGreeting: true
 };
 
@@ -50,28 +51,44 @@ const socialMediaLinks = {
 // Skills Section
 const skillsSection = {
   title: "What I Do",
-  subTitle:
-    "FULL STACK SOFTWARE ENGINEER WHO LOVES TO EXPLORE EVERY TECH STACK",
+  subTitle: "FULL STACK SOFTWARE ENGINEER WHO LOVES TO EXPLORE EVERY TECH STACK",
   skills: [
-    emoji(
-      "⚡ Develop interactive front-end applications using React.js, Next.js, Vue.js, and manage application state with Redux."
-    ),
-    emoji(
-      "⚡ Build responsive and dynamic web applications with modern back-end technologies like Node.js, Express.js, MongoDB, and MySQL."
-    ),
-    emoji(
-      "⚡ Implement DevOps and cloud solutions with AWS, Docker, and leverage CI/CD pipelines for efficient deployment and management."
-    )
+    emoji("⚡ Develop interactive front-end applications using React.js, Next.js, Vue.js, and manage application state with Redux."),
+    emoji("⚡ Build responsive and dynamic web applications with modern back-end technologies like Node.js, Express.js, MongoDB, and MySQL."),
+    emoji("⚡ Implement DevOps and cloud solutions with AWS, Docker, and leverage CI/CD pipelines for efficient deployment and management."),
+    emoji("⚡ Enhance application security, ensure responsive design, and enable real-time communication with Websockets."),
+    emoji("⚡ Produce comprehensive technical documentation and manage version control with Git.")
   ],
   softwareSkills: [
-    {skillName: "html-5", fontAwesomeClassname: "fab fa-html5"},
-    {skillName: "css3", fontAwesomeClassname: "fab fa-css3-alt"},
-    {skillName: "JavaScript", fontAwesomeClassname: "fab fa-js"},
-    {skillName: "reactjs", fontAwesomeClassname: "fab fa-react"},
-    {skillName: "nodejs", fontAwesomeClassname: "fab fa-node"},
-    {skillName: "aws", fontAwesomeClassname: "fab fa-aws"},
-    {skillName: "docker", fontAwesomeClassname: "fab fa-docker"}
-    // Add other skills as needed
+    {skillName: "JavaScript", fontAwesomeClassname: "fab fa-js-square"},
+    {skillName: "Python", fontAwesomeClassname: "fab fa-python"},
+    {skillName: "PHP", fontAwesomeClassname: "fab fa-php"},
+    {skillName: "C++", fontAwesomeClassname: "fas fa-code"},
+    {skillName: "React.js", fontAwesomeClassname: "fab fa-react"},
+    {skillName: "Next.js", fontAwesomeClassname: "fas fa-forward"},
+    {skillName: "Vue.js", fontAwesomeClassname: "fab fa-vuejs"},
+    {skillName: "Redux", fontAwesomeClassname: "fas fa-undo-alt"},
+    {skillName: "HTML5", fontAwesomeClassname: "fab fa-html5"},
+    {skillName: "CSS", fontAwesomeClassname: "fab fa-css3-alt"},
+    {skillName: "Tailwind CSS", fontAwesomeClassname: "fas fa-wind"},
+    {skillName: "Node.js", fontAwesomeClassname: "fab fa-node"},
+    {skillName: "Express.js", fontAwesomeClassname: "fas fa-rocket"},
+    {skillName: "MySQL & MONGODB", fontAwesomeClassname: "fas fa-database"},
+    {skillName: "RESTful APIs", fontAwesomeClassname: "fas fa-cogs"},
+    {skillName: "GraphQL", fontAwesomeClassname: "fas fa-project-diagram"},
+    {skillName: "AWS", fontAwesomeClassname: "fab fa-aws"},
+    {skillName: "Docker", fontAwesomeClassname: "fab fa-docker"},
+    {skillName: "Git", fontAwesomeClassname: "fab fa-git-alt"},
+    {skillName: "CI/CD", fontAwesomeClassname: "fas fa-stream"},
+    {skillName: "Serverless", fontAwesomeClassname: "fas fa-cloud"},
+    {skillName: "Microservices", fontAwesomeClassname: "fas fa-network-wired"},
+    {skillName: "Nginx", fontAwesomeClassname: "fas fa-server"},
+    {skillName: "Web Security", fontAwesomeClassname: "fas fa-shield-alt"},
+    {skillName: "Responsive Design", fontAwesomeClassname: "fas fa-mobile-alt"},
+    {skillName: "Websockets", fontAwesomeClassname: "fas fa-plug"},
+    {skillName: "Version Control", fontAwesomeClassname: "fas fa-code-branch"},
+    {skillName: "Technical Documentation", fontAwesomeClassname: "fas fa-file-alt"},
+    {skillName: "Operating Systems", fontAwesomeClassname: "fab fa-linux"} // Using Linux as a placeholder for general OS knowledge
   ],
   display: true
 };
@@ -213,50 +230,30 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "React - The Complete Guide (incl Hooks, React Router, Redux)",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Completed an extensive React.js course covering from basics to advanced concepts, including Hooks, Redux, React Router, and Next.js. Engaged in hands-on learning with over 68.5 hours of video content, coding exercises, and multiple demo projects to build a solid foundation and advanced knowledge in React development.",
+      image: require("./assets/images/ReactCourse.png"), // Placeholder image, replace with actual path
+      imageAlt: "React Course Completion",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
-      ]
-    },
-    {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Course",
+          url: "https://www.udemy.com/course/react-the-complete-guide-incl-redux/"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "The Coding Boot Camp at the University of Sydney",
+      subtitle:
+        "Successfully completed a comprehensive 240-hour course in collaboration with the University of Sydney and edX, covering full-stack development.",
+      image: require("./assets/images/UOS.png"), // Placeholder image, replace with actual path
+      imageAlt: "University of Sydney Logo",
       footerLink: [
-        {name: "Certification", url: ""},
+        // You can include a link to the course or a related showcase if available
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1QhwKer6Jz0PHiLxBq2jPsA-HaWPkrW0l/view?usp=drive_link"
         }
       ]
     }
