@@ -51,13 +51,24 @@ const socialMediaLinks = {
 // Skills Section
 const skillsSection = {
   title: "What I Do",
-  subTitle: "FULL STACK SOFTWARE ENGINEER WHO LOVES TO EXPLORE EVERY TECH STACK",
+  subTitle:
+    "FULL STACK SOFTWARE ENGINEER WHO LOVES TO EXPLORE EVERY TECH STACK",
   skills: [
-    emoji("⚡ Develop interactive front-end applications using React.js, Next.js, Vue.js, and manage application state with Redux."),
-    emoji("⚡ Build responsive and dynamic web applications with modern back-end technologies like Node.js, Express.js, MongoDB, and MySQL."),
-    emoji("⚡ Implement DevOps and cloud solutions with AWS, Docker, and leverage CI/CD pipelines for efficient deployment and management."),
-    emoji("⚡ Enhance application security, ensure responsive design, and enable real-time communication with Websockets."),
-    emoji("⚡ Produce comprehensive technical documentation and manage version control with Git.")
+    emoji(
+      "⚡ Develop interactive front-end applications using React.js, Next.js, Vue.js, and manage application state with Redux."
+    ),
+    emoji(
+      "⚡ Build responsive and dynamic web applications with modern back-end technologies like Node.js, Express.js, MongoDB, and MySQL."
+    ),
+    emoji(
+      "⚡ Implement DevOps and cloud solutions with AWS, Docker, and leverage CI/CD pipelines for efficient deployment and management."
+    ),
+    emoji(
+      "⚡ Enhance application security, ensure responsive design, and enable real-time communication with Websockets."
+    ),
+    emoji(
+      "⚡ Produce comprehensive technical documentation and manage version control with Git."
+    )
   ],
   softwareSkills: [
     {skillName: "JavaScript", fontAwesomeClassname: "fab fa-js-square"},
@@ -87,7 +98,10 @@ const skillsSection = {
     {skillName: "Responsive Design", fontAwesomeClassname: "fas fa-mobile-alt"},
     {skillName: "Websockets", fontAwesomeClassname: "fas fa-plug"},
     {skillName: "Version Control", fontAwesomeClassname: "fas fa-code-branch"},
-    {skillName: "Technical Documentation", fontAwesomeClassname: "fas fa-file-alt"},
+    {
+      skillName: "Technical Documentation",
+      fontAwesomeClassname: "fas fa-file-alt"
+    },
     {skillName: "Operating Systems", fontAwesomeClassname: "fab fa-linux"} // Using Linux as a placeholder for general OS knowledge
   ],
   display: true
@@ -154,14 +168,14 @@ const workExperiences = {
       company: "Stomble",
       companylogo: require("./assets/images/Stomble.jpeg"),
       date: "Jun 2023 – Sep 2023",
-      desc: "Led the development of responsive UI components in Flutter, implemented a scalable Firestore database, and integrated Firebase Authentication."
+      desc: "Developed and maintained mobile applications for both Android and iOS platforms using React Native. Worked closely with the development team to design, develop, and test new features, ensuring high performance and responsiveness across devices. Contributed to the optimization of application performance, security, and user experience, resulting in a 20% increase in user engagement and retention."
     },
     {
       role: "Software Engineer Intern",
       company: "AML Cloud",
       companylogo: require("./assets/images/AML Cloud.jpeg"),
       date: "May 2023 – Jun 2023",
-      desc: "Led the development of responsive UI components in Flutter, implemented a scalable Firestore database, and integrated Firebase Authentication."
+      desc: "Spearheaded the development of responsive UI components in Flutter, architected a scalable Firestore database with real-time updates, integrated Firebase Authentication for secure logins, optimized state management with Flutter Riverpod, streamlined data retrieval with custom Firestore queries, and extended app functionality with Flutter plugins."
     }
   ]
 };
@@ -201,6 +215,18 @@ const bigProjects = {
         {
           name: "Visit Website",
           url: "https://github.com/naodhu/chat-support1"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/DreamScape Realty.png"), // Placeholder image, replace with actual path
+      projectName: "Real Estate Management System",
+      projectDesc:
+        "Led the development of a Real Estate Management System, a full-stack application designed to streamline property management and sales. The system features a user-friendly interface, property search, listing management, and user accounts. Leveraging React, Node.js, Express.js, and MongoDB, the system provides a comprehensive solution for real estate agents and property owners, enabling efficient property management and sales.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://statehousing.onrender.com/"
         }
       ]
     },
