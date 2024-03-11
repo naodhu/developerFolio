@@ -210,7 +210,7 @@ const bigProjects = {
       image: require("./assets/images/project2.png"), // Placeholder image, replace with actual path
       projectName: "Chat Support System",
       projectDesc:
-        "Played a key role in developing a Chat Support system, enabling real-time communication between users and support staff. Utilizing EJS, CSS, JavaScript, and a suite of technologies like Node.js, MySQL, Sequelize, and socket.io, the system offers live chat support, ticket creation, and access to historical tickets. This MVP project focuses on enhancing customer support services, ensuring users receive timely assistance and resolutions.",
+        "Played a keys  role in developing a Chat Support system, enabling real-time communication between users and support staff. Utilizing EJS, CSS, JavaScript, and a suite of technologies like Node.js, MySQL, Sequelize, and socket.io, the system offers live chat support, ticket creation, and access to historical tickets. This MVP project focuses on enhancing customer support services, ensuring users receive timely assistance and resolutions.",
       footerLink: [
         {
           name: "Visit Website",
